@@ -5,3 +5,4 @@ RUN npm i
 COPY . .
 EXPOSE 3000
 CMD ["node","./src/index.js"]
+RUN rm -rf /usr/local/share/.cache/
